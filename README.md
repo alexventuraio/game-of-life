@@ -8,16 +8,16 @@ I know, this sounds a bit cumbersome since we only have the console to run or Ru
 
 The idea is basically to be able to run a script _for ever_ (until we interrupt the script manually) and render the actual state of the matrix.
 
-You maybe asking what about performance? 🤔
-Will it overflow the computer memory? 🤔
-Will it kill my computer at some point? 🤔
+* You maybe asking what about performance? 🤔
+* Will it overflow the computer memory? 🤔
+* Will it kill my computer at some point? 🤔
 
 Do not panic, this script uses **only two data structures** (2D arrays) and swap data from one to the other and in that sense
 it won't increase space and eventually kill your RAM.
 
 _Keep calm and give it a try!_ 😎
 
-### Usage
+## Usage
 
 > First make sure you have Ruby installed in your system. You can follow the [instructions here](https://www.ruby-lang.org/es/downloads/) depending on your OS.
 > It is recommended to use `Ruby 2.7.4 and newer version`.
@@ -25,7 +25,7 @@ _Keep calm and give it a try!_ 😎
 To use the application, first, in your terminal run the following command to clone this repo using the next command:
 
 ```sh
-$ https://github.com/alexventuraio/game-of-life
+$ git clone https://github.com/alexventuraio/game-of-life.git
 ```
 
 Then, access the folder with:
