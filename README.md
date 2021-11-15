@@ -1,5 +1,7 @@
 # Game of Life
 
+![Graphical Example](gol.png)
+
 This exercise tries to implement the well know [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in Ruby.
 
 I know, this sounds a bit cumbersome since we only have the console to run or Ruby script and render the output in it and that sounds very limited, and yeah, for sure this is not the most elegant way to show this game in action but at least it does the job.
