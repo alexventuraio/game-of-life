@@ -83,7 +83,7 @@ class GameOfLife
     (x >= 0 && @start_matrix[x] && x < @start_matrix[x].size) && (y >= 0 && y < @start_matrix.size)
   end
 
-  def generate_matrix(rows = 5, cols = 5)
+  def generate_matrix(rows = 20, cols = 20)
     Array.new(rows) { Array.new(cols) { rand(0..1) } }
   end
 end
