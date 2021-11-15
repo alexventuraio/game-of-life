@@ -88,5 +88,11 @@ class GameOfLife
   end
 end
 
+sample_grid = [[1, 0, 0, 0, 0],
+               [0, 0, 0, 1, 0],
+               [0, 1, 1, 0, 0],
+               [0, 0, 1, 1, 0],
+               [1, 0, 0, 0, 0]]
+
 matrix_solver = GameOfLife.new
 matrix_solver.start
